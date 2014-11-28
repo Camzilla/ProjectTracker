@@ -70,9 +70,3 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
-
-
-
-
-*.idea
-gradle/wrapper/gradle-wrapper.jar
