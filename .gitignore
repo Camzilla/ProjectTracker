@@ -37,8 +37,7 @@ proguard/
 .LSOverride
 
 # Icon must end with two \r
-Icon
-
+Icon
 # Thumbnails
 ._*
 
@@ -71,3 +70,9 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+
+
+
+*.idea
+gradle/wrapper/gradle-wrapper.jar
