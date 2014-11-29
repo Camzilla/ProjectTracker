@@ -28,6 +28,10 @@ public class DummyContent {
         addItem(new DummyItem("1", "Item 1"));
         addItem(new DummyItem("2", "Item 2"));
         addItem(new DummyItem("3", "Item 3"));
+
+        DummyItem awesomeItem = new DummyItem("4", "Hello world! (Item 4)");
+        awesomeItem.detailContent = "This item is awesome! (A little more so than the others)";
+        addItem(awesomeItem);
     }
 
     private static void addItem(DummyItem item) {
@@ -41,10 +45,12 @@ public class DummyContent {
     public static class DummyItem {
         public String id;
         public String content;
+        public String detailContent;
 
         public DummyItem(String id, String content) {
             this.id = id;
             this.content = content;
+            this.detailContent = "";
         }
 
         @Override
