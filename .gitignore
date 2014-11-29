@@ -70,3 +70,6 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+.idea/misc.xml
+.idea/libraries/support_annotations_21_0_2.xml
+.idea/workspace.xml
