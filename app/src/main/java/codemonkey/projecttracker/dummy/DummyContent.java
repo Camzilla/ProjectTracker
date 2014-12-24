@@ -30,7 +30,7 @@ public class DummyContent {
         addItem(new DummyItem("3", "Item 3"));
 
         DummyItem awesomeItem = new DummyItem("4", "Hello world! (Item 4)");
-        awesomeItem.detailContent = "This item is awesome! (A little more so than the others)";
+        awesomeItem.detailContent = "This item is awesome! (A little more so than the others).\nLook, it even has a spinning clickable image:";
         addItem(awesomeItem);
     }
 
